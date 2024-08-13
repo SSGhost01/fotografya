@@ -1,0 +1,73 @@
+.form-wrapper {
+display: flex;
+flex-direction: column;
+width: 100%;
+margin: 20px 0px;
+}
+ 
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#searchInput {
+width: 75%;
+padding: 5px;
+border-radius: 50px;
+text-align: center;
+}
+
+.button-wrapper {
+    margin: 10px 0px;
+}
+
+#searchButton{
+    width: 110px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    background-color: green;
+    color: white;
+    box-shadow: 1px 3px 5px lightgray;
+}
+#searchButton:hover{
+    border: 2px solid green;
+    background-color: rgb(2, 100, 10);
+}
+#clearButton{
+    width: 110px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    background-color: rgb(255, 6, 6);
+    color: white;
+    box-shadow: 1px 3px 5px lightgray;
+}
+#clearButton:hover{
+    border: 2px solid rgb(68, 1, 1) ;
+    background-color: rgb(97, 1, 1);
+}
+.imagelist-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    margin: 20px;
+    border: 1px solid grey;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 8px gray;
+}
+ .card img{
+    width: 400px;
+    height: 400px;
+ }
+ 
